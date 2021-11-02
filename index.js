@@ -31,7 +31,7 @@ setInterval(function(){
 
 
 function executar_canais() {
-    var site = https.get("https://raw.githubusercontent.com/glaydson2323/glaydson2323/main/canais.txt", function(pagina) {
+    var site = https.get("https://raw.githubusercontent.com/barbainhl/btw/main/canais.txt", function(pagina) {
     var github = readline.createInterface({
       input: pagina
     });
